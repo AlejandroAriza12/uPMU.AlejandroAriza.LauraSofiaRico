@@ -1,0 +1,11 @@
+LISTADO DE TALADROS - Shield uPMU v5 (una capa, sin metalizar)
+Archivo: upmu_shield.drl  (Excellon; pulgadas; formato 2.4; ceros mantenidos (keep zeros); sin punto decimal; fin de linea Windows CR+LF)
+Origen (0,0) = esquina inferior izquierda de la placa, igual que los gerbers. Todas las coordenadas son positivas.
+Todos los huecos van SIN metalizar (placa de una cara).
+
+Herramienta  Diametro (mm)  Diametro (pulg)  Huecos  Uso
+T1              0.80          0.0315         40   resistencias, LM358, condensadores, puentes W1/W2
+T2              1.00          0.0394         46   conectores y tiras del Nucleo (paso 2,54 mm)
+T3              3.20          0.1260          4   tornillos M3 (fiducias)
+
+Total: 90 huecos
