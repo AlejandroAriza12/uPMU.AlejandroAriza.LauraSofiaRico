@@ -1,0 +1,10 @@
+﻿Métrica,Resultado,Criterio,Cumple,Fuente
+TVE corriente (máx),0.737 %,≤ 1 %,Sí,IEEE C37.118.1 (estado estable)
+"TVE tensión (máx, con incertidumbre angular)",3.511 %,≤ 1 %,No,IEEE C37.118.1 (estado estable)
+Error magnitud V |media|+2σ,0.374 %,≤ 1.0 %,Sí,Propio
+Error magnitud I |media|+2σ,0.651 %,≤ 3.0 %,Sí,Propio
+Error ángulo V–I |media|+2σ,0.481 °,≤ 0.573 °,Sí,Propio (equivale a TVE 1 %)
+FE estimada: algoritmo (DFT vs ajuste) + base de tiempo,nan mHz,≤ 5 mHz,No,IEEE C37.118.1 — sin referencia externa
+FE contra referencia externa,sin referencia,≤ 5 mHz,No evaluable,Captura con ref_f (fuente programable)
+Rango de frecuencia con TVE ≤ 1 % (simulado),-0.70 a +0.70 Hz,±2 Hz (clase P),No,IEEE C37.118.1 — SIMULADO
+Tiempo de respuesta (ventana),266.7 ms,"≤ 1,7/f0 = 28.3 ms (clase P)",No,IEEE C37.118.1 — por diseño
